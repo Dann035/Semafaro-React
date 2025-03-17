@@ -1,0 +1,34 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.semafaro {
+  margin-top: 2.5rem;
+  position: relative;
+  width: 200px;
+}
+
+.redColor {
+  position: absolute;
+  top: 90px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.greenColor {
+  position: absolute;
+  top: 215px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.yellowColor {
+  position: absolute;
+  top: 335px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
